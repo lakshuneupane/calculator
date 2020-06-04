@@ -6,14 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Calculator</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="script.jss"></script>
+    <script src="script.js"></script>
 </head>
 <body>
     <div id="container">
         <div id="calculator">
             <div id="results">
                 <div id="history">
-                    <p id="history value"></p>
+                    <p id="historyvalue"></p>
                 </div>
                 <div id="output">
                     <p id="Output-value"></p>
@@ -24,7 +24,7 @@
                 <button class="operator" id="delete">DEL</button>
                 <button class="operator" id="%">%</button>
                 <button class="operator" id="÷">÷</button>
-                <button class="number" id="1">1</button>
+                <button class="number" id="1" onclick="numberclick(1)">1</button>
                 <button class="number" id="2">2</button>
                 <button class="number" id="3">3</button>
                 <button class="operator" id="*">*</button>
